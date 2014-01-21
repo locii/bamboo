@@ -6,6 +6,7 @@ Bamboo is a lightweight vanilla theme modelled on the Joomlabamboo Responsive th
 It supports:
 * Google font integration (via the google font loader)
 * Compile to Less option for all relevant theme settings
+* Minimal css framework based on mobile first responsive css.
 * Back to top button
 * Lazy load images
 * Sticky nav
