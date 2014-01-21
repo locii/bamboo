@@ -1,0 +1,40 @@
+/******************************************************************
+Site Name: Bamboo Framework
+Author: Bamboothemes
+
+Stylesheet: Header Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+
+
+#headerwrap {
+	
+	float:left;
+	width:100%;
+	
+		.wrap {
+		
+		}
+		
+		#logo a {
+			font-size:@logofontsize;
+			font-family:@logofontfamily;
+			font-weight: @logofontweight;
+			color:@logofontcolor;
+			
+			&:hover {
+				color:@logofontcolorhover;
+			}
+		}
+		
+		#tagline {
+			span {
+				color:@taglineColor
+			}
+		}
+
+}

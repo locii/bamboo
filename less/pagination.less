@@ -1,0 +1,37 @@
+/* Styles that need to be reset before we proceed
+-----------------------------------------------------------------------------*/
+
+
+.page-numbers {
+	
+	padding-left:0;
+	margin:30px 0;
+	
+	li {
+		float:left;
+		
+		
+		span.current  {
+			
+			border:1px solid @borderColor;
+			border-radius: @border-radius;
+			padding:4px 10px;
+			margin-right:4px; 
+			background:#fff;
+		}
+		
+		a {
+			text-decoration:none;
+			background:@primary;
+			color:#fff;
+			border:1px solid @primary;
+			border-radius: @border-radius;
+			padding:4px 10px;
+			margin-right:4px; 
+			
+			&:hover {
+				background:@secondary
+			}
+		}	
+	}
+}

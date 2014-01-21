@@ -1,0 +1,90 @@
+/******************************************************************
+Site Name: Bamboo Framework
+Author: Bamboothemes
+
+Stylesheet: Menu Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+
+
+#navwrap {
+	
+	float:left;
+	width:100%;
+	
+	.wrap {
+		border-top:1px solid @borderColor;
+		border-bottom:1px solid @borderColor;
+		max-width:@basewidth;
+		margin:0 auto;
+		padding-top:0;
+		padding-bottom:0;
+	}
+	
+	// Top level ul
+	ul {
+		margin-bottom:0;
+		padding-left:0
+	}
+	
+	li {
+		line-height:2em;
+	}
+	// Top level links
+	a {
+		color:@nav-link-color;
+		background:@nav-link-bg;
+		
+		&:hover {
+			background:@nav-link-bg-hover;
+			color:@nav-link-color-hover
+		}
+	}
+	
+	li:hover a {
+		background:@nav-link-bg-hover;
+		color:@nav-link-color-hover
+	}
+	
+	
+	// Drop down links
+	ul.sub-menu,
+	ul.children {
+		background:@dropdown-bg;
+		border-color:@borderColor;
+		.box-shadow( 0 15px 15px rgba(0, 0, 0, 0.1));
+		
+		li {
+			line-height:1.4em
+		}
+		
+		a {
+			background:none;
+			border-top:1px solid @dropdown-link-border-top;
+			border-bottom:1px solid @dropdown-link-border-bottom;
+			color: @dropdown-link-color;
+			
+			&:hover {
+				color: @dropdown-link-color-hover
+			}
+		}
+	}
+	
+	&.sticky {
+		position:fixed;
+		z-index:90;
+		background:@stickynav;
+		top:0
+	}
+
+}
+
+.logged-in {
+	#navwrap.sticky {
+		top:30px !important
+	}
+}

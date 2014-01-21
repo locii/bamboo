@@ -1,0 +1,64 @@
+/******************************************************************
+Site Name: Bamboo Framework
+Author: Bamboothemes
+
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+
+
+/*********************
+BUTTONS
+*********************/
+
+.button, .button:visited {
+	border: 1px solid darken(@btnbackground, 7%);
+	border-top-color: darken(@btnbackground, 3%);
+	border-left-color: darken(@btnbackground, 3%);
+	padding: 4px 12px;
+	color: @btncolor;
+	display: inline-block;
+	text-decoration: none;
+	cursor: pointer;
+	margin-bottom: 20px;
+	line-height: 21px;
+	.transition();
+	.border-radius(2px);
+	.css-gradient(@btnbackground,darken(@btnbackground, 3%));
+
+	&:hover, &:focus {
+		color: @btnhover;
+	  border: 1px solid darken(@btnbackgroundhover, 13%);
+	  border-top-color: darken(@btnbackgroundhover, 20%);
+	 	border-left-color: darken(@btnbackgroundhover, 20%);
+		.css-gradient(darken(@btnbackgroundhover, 5%),darken(@btnbackgroundhover, 10%));
+	}
+	
+	&:active {
+		.css-gradient(darken(@btnbackgroundhover, 5%),@btnbackgroundhover);
+	}	
+}
+
+
+/* comment reply link */
+	.comment-reply-link {
+		text-decoration: none;
+		float: right;
+		background: @btnbackground;
+		padding: 3px 5px;
+		color: @btncolor;
+		border-radius:2px;
+		margin-bottom: 10px;
+		font-size: 0.9em;
+
+		&:hover,
+		&:focus {
+			background:@btnbackgroundhover;
+			color:@btnhover
+		}
+
+	} 

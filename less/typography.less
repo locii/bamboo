@@ -1,0 +1,36 @@
+/******************************************************************
+Site Name: Bamboo Framework
+Author: Bamboothemes
+
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+
+
+a {
+	.transition();
+	color:@primary
+}
+
+p {
+	color:@textColor
+}
+
+
+blockquote {
+	p { 
+		font-size:1.5em
+	}
+}
+
+
+h1, h2, h3, h4, h5, h6, blockquote {
+	font-family: @headingfontfamily;
+	font-weight: @headingfontweight;
+	color:@headingsColor
+}
+

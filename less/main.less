@@ -1,0 +1,88 @@
+/******************************************************************
+Site Name: Bamboo Framework
+Author: Bamboothemes
+
+Stylesheet: Menu Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+
+
+#main {
+	
+	padding-top:@main-padding-top;
+	margin-bottom:@main-padding-bottom;
+	.wrap {
+		
+	}
+}
+
+#inner-content {
+	padding:0
+}
+
+#content {
+	&.main-right {
+		
+		#main {
+			float:right;
+			margin-left:0
+			
+		}
+		
+		#sidebar1 {
+			float:left;
+			margin-left:0;
+			margin-right: 2.762430939%;
+		}
+		
+		#sidebar2 {
+			float:left;
+			margin-left:0
+		}
+	}
+	
+	&.main-left {
+		
+		#main {
+			margin-left:0
+		}
+		
+		#sidebar1 {
+			float:right;
+			margin-left:0;
+			margin-right: 0;
+		}
+		
+		#sidebar2 {
+			float:right;
+			margin-left:0
+		}
+	}
+	
+	&.full-width {
+		#main{ margin:0}
+	}
+
+	&.left-mid-right {
+	
+		#main {
+			float:left;
+		}
+		
+		#sidebar1 {
+			float:left;
+			margin-left:0;
+			margin-right: 0;
+		}
+		
+		#sidebar2 {
+			float:right;
+			margin-left:0
+		}
+	}
+	
+}

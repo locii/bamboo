@@ -1,0 +1,191 @@
+/*------------------------------------------------------------------
+Template: JB Responsive
+Color Hilite: OrangeGreen
+Version: Joomla 1.5
+Zen Grid: v2.0
+Copyright: Joomlabamboo
+Created: October 2011
+---------------------------------------------------*/
+
+a,.sidebar ul li.active li.active a {color: #d68644}
+
+a:hover {
+color: #577867;
+}
+
+/* First Background Hovers
+---------------------------------------------------*/
+#socialicons a:hover,a#zenpanelopen:hover,div.k2CommentsForm form input#submitCommentButton,a#zenpanelopen,ul.jbtabs li a:hover,#subnav ul li.active a,.sidebar ul li.active a,#jbSplitMenuAbove ul li#current a,a.jbReadon,span.featured,a.k2ReadMore,.mbLeftCol .mbMaxbizDate{
+-webkit-transition:background 0.2s linear; 
+-moz-transition:background 0.2s linear; 
+-o-transition:background 0.2s linear; 
+transition:background 0.2s linear; 
+background: #d68644}
+
+
+
+/* Second Background Hovers
+---------------------------------------------------*/
+div.k2CommentsForm form input#submitCommentButton {color: #fff;}
+div.k2CommentsForm form input#submitCommentButton:hover,a#zenpanelopen:hover,a.jbReadon:hover,a.k2ReadMore:hover  {
+-webkit-transition:background 0.2s linear; 
+-moz-transition:background 0.2s linear; 
+-o-transition:background 0.2s linear; 
+transition:background 0.2s linear; 
+background: #577867;
+}
+
+
+/* Third - Neutral Background Hovers
+---------------------------------------------------*/
+#socialicons a {
+background: #eee;
+}
+
+
+/* Resets on items that have a #ff colout
+---------------------------------------------------*/
+ul.jbtabs li.active a:hover,#jbSplitMenuAbove ul li#current a,a#zenpanelopen,div.jbReadmore a,ul.jbtabs li a:hover,#subnav ul li.active a,.sidebar ul li.active a,#jbSplitMenuAbove ul li#current a,a.jbReadon,span.featured,a.k2ReadMore,#subnav ul li.active a,a.k2ReadMore:hover,.mbLeftCol .mbMaxbizDate
+{
+color: #fff;
+}
+
+.sidebar ul li a {
+color: #999 ; 
+}
+
+
+
+/* Nav link and span color
+---------------------------------------------------*/
+#nav ul li a,
+#nav span.separator,
+#nav ul li span.mainlevel span,
+#nav ul li.active li a,
+#nav ul li.active li span.separator,
+#nav ul li.active li.active li a,
+#nav ul li.active li.active li.active li a,
+.moduletable-superfish  ul li a,
+.moduletable-superfish span.seaparator,
+.moduletable-superfish ul li.active li a,
+.moduletable-superfish ul li.active li span.separator,
+.moduletable-superfish  ul li.active li.active li a,
+.moduletable-superfish ul li.active li.active li.active li a
+{color: #333}
+
+
+ 
+/* Nav Active and hover color
+---------------------------------------------------*/
+#nav ul li.active a,
+#nav ul li.active span.separator,
+#nav ul li.active li.active span.mainlevel span,
+#nav ul li.active li.active a,
+#nav ul li.active li.active span.separator,
+#nav ul li.active li.active li.active a,
+#nav ul li.active li.active li.active li.active a,
+#nav ul li.active li.active li.active span.separator, 
+.moduletable-superfish ul li.active a,
+.moduletable-superfish ul li.active span.separator,
+.moduletable-superfish ul li.active li.active a,
+.moduletable-superfish ul li.active li.active span.separator,
+.moduletable-superfish ul li.active li.active li.active a,
+.moduletable-superfish ul li.active li.active li.active span.separator,
+a:hover,
+#nav ul li a:hover,
+#nav ul li.active a:hover,
+#nav ul li span.mainlevel span:hover,
+#nav ul li.active li.active li a:hover,
+.moduletable-superfish a:hover,
+.moduletable-superfish ul li a:hover,
+.moduletable-superfish ul li.active li.active li a:hover
+{color: #577867} 
+
+
+
+
+
+/* Image for Parent Items
+---------------------------------------------------*/
+#nav a.sf-with-ul,
+#nav a.sf-with-ul:hover,
+#nav ul li a.mainlevel.sf-with-ul,
+#nav ul.sf-js-enabled li span.mainlevel span,
+#nav li.parent li.parent span.separator,
+#nav ul span.separator,
+.moduletable-superfish ul span.separator,
+.moduletable-superfish a.sf-with-ul,
+.moduletable-superfish a.sf-with-ul:hover,
+.moduletable-superfish li.parent span.separator,
+.moduletable-superfish li.parent li.parent span.separator  {
+	background: url(../images/menu/navParent.png) no-repeat 8px center;padding-left: 20px;
+}
+
+
+
+
+/* Image for Sub Parent Items
+---------------------------------------------------*/
+#nav ul ul a.sf-with-ul,
+#nav ul ul a.sf-with-ul:hover,
+#nav ul li li a.mainlevel.sf-with-ul,
+#nav ul.sf-js-enabled li li span.mainlevel span,
+#nav ul li li span.mainlevel span,
+#nav ul ul span.separator,
+.moduletable-superfish ul ul a.sf-with-ul,
+.moduletable-superfish ul ul a.sf-with-ul:hover,
+.moduletable-superfish ul ul li.parent span.separator,
+.moduletable-superfish ul ul li li.parent span.separator,
+.moduletable-superfish ul li li span.mainlevel span,
+#nav ul li li span.separator 
+{background:	url(../images/menu/navParent.png) no-repeat 96% center !important;  padding-left:10px;text-indent: 0;}
+
+ 
+
+/* Colours for sub level item backgrounds
+---------------------------------------------------*/
+#nav ul ul,.moduletable-superfish {
+-moz-box-shadow:0 0 4px #ccc;
+-webkit-box-shadow: 0 0 4px #ccc;
+box-shadow: 0px 0px 4px #ccc;background: #f9f9f9;
+border-top: 0;
+}
+
+
+#nav ul li,
+.moduletable-superfish ul li
+{}
+
+#nav ul li li,
+.moduletable-superfish ul li li 
+{background: #f9f9f9;border-top: 1px solid #ddd;border-bottom: 1px solid #fff}
+
+#nav ul li li:hover {background: #fff}
+
+
+/* Colours for background hover states
+---------------------------------------------------*/
+#nav ul li:hover, 
+#nav ul li.sfHover,
+#nav ul a:focus, 
+#nav ul a:hover,
+#nav ul a:active,
+#nav ul li li.active,
+.moduletable-superfish ul li:hover, 
+.moduletable-superfish ul li.sfHover,
+.moduletable-superfish ul a:focus, 
+.moduletable-superfish ul a:hover,
+.moduletable-superfish ul a:active,
+.moduletable-superfish  ul li li.active
+{outline:	0;color: #ccc}
+
+
+/* Module Classes
+-------------------------------------------------------------- */
+.moduletable-border {padding: 10px;background: #eee;border: 1px solid #ddd;}
+.moduletable-notice {background: #FFF6BF;color: #514721; border-bottom: 1px solid #FFD324;padding: 10px;}
+.moduletable-warning {background: #FBE3E4;color: #8a1f11;border-bottom: 1px solid #FBC2C4;padding: 10px;}
+.moduletable-success {background: #E6EFC2; color: #264409;border-bottom: 1px solid #C6D880;padding: 10px;}
+.moduletable-shadow {box-shadow: 0 0 3px rgba(0, 0, 0, .2);-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2);-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .3);background: #fff;padding: 10px;}
+.moduletable-border2 {background: #eee;padding: 10px;border: 4px solid #fff}
+.moduletable-rounded {background: #eee;padding: 10px;border: 4px solid #fff;border-radius:10px}
