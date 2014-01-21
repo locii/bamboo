@@ -44,7 +44,7 @@
 					
 						<?php the_breadcrumb(); ?>
 						<?php get_template_part('templates/content', 'single'); ?>
-
+						<?php if($bamboo['author_profile']) { get_template_part('templates/author', 'profile');} ?>
 					</div>
 
 					<?php if($layout > 0 && $layout < 5) { 

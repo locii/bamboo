@@ -255,4 +255,21 @@ function the_breadcrumb() {
     elseif (is_author()) {echo"Author's archive: "; echo'</li>';}
     elseif (isset($_GET['paged']) && !empty($_GET['paged'])) {echo "Blogarchive: "; echo'';}
     elseif (is_search()) {echo"Search results: "; }
-}?>
+}
+
+
+function my_get_display_author_posts() {
+    global $authordata, $post;
+
+    $authors_posts = get_posts( array( 'author' => $authordata->ID, 'post__not_in' => array( $post->ID ) ) );
+
+    $output = '<ul>';
+    foreach ( $authors_posts as $authors_post ) {
+        $output .= '<li><a href="' . get_permalink( $authors_post->ID ) . '">' . apply_filters( 'the_title', $authors_post->post_title, $authors_post->ID ) . '</a></li>';
+    }
+    $output .= '</ul>';
+
+    return $output;
+}
+
+?>

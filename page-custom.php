@@ -54,7 +54,7 @@ Template Name: Custom Page Example
 									</article>
 
 							<?php endif; ?>
-
+							<?php if($bamboo['author_profile']) { get_template_part('templates/author', 'profile');} ?>
 						</div>
 
 						<?php get_sidebar(); ?>
