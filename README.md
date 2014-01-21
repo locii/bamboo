@@ -1,29 +1,39 @@
-# Bones
-__A Lightweight Wordpress Development Theme__
+# Bamboo
+__A wordpress starter theme built on the Bones and Redux Options framework__
 
-Bones is designed to make the life of developers easier. It's built
-using HTML5 & has a strong semantic foundation. It was updated recently
-using some of the HTML5 Boilerplate's recommended markup and setup.
-It's constantly growing so be sure to check back often if you are a
-frequent user. I'm always open to contribution. :)
+Bamboo is a lightweight vanilla theme modelled on the Joomlabamboo Responsive theme http://www.joomlabamboo.com/joomla-templates/responsive-joomla-template
 
-Designed by **Eddie Machado**: http://themble.com/bones
+It supports:
+* Google font integration (via the google font loader)
+* Compile to Less option for all relevant theme settings
+* Back to top button
+* Lazy load images
+* Sticky nav
+* Mobile menu options including off canvas, toggle menu and select menu
+* Advanced appearance options
+* Custom code snippets
+* Breadcrumbs
+* Custom layouts per page type
+* Advanced logo options
+
+Designed by **Anthony Olsen**: http://joomlabamboo.com
 
 Special Thanks to:
+* Bones theme **Eddie Machado**: themble.com/bones
+* Redux Framework Options http://reduxframework.com/
 * Paul Irish & the HTML5 Boilerplate
 * Yoast for some WP functions & optimization ideas
 * Andrew Rogers for code optimization
 * David Dellanave for speed & code optimization
 * and several other developers. :)
 
+
 Submit Bugs & or Fixes:
-https://github.com/eddiemachado/bones/issues
+https://github.com/locii/bamboo
 
 
 ## License
-__[WTFPL](http://sam.zoy.org/wtfpl/)__
-
-	Are You Serious? Yes.
+__[GPL](http://www.gnu.org/licenses/gpl.html)__
 
 
 ## Meta
