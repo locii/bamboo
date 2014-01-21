@@ -1141,19 +1141,7 @@ if ( !class_exists( "Redux_Framework_sample_config" ) ) {
 						'desc' => 'Display an author profile after a post',
 						'default' => 1,
 					),
-					array (
-						'id'=>'featured',
-						'type' => 'select',
-						'title' => __('Display Featured Images', 'bamboo-framework'), 
-						'desc' => __('This is the description field, again good for additional info.', 'bamboo-framework'),
-						'options' => array(
-							'1' => 'Never',
-							'2' => 'Always',
-							'3' => 'Index only',
-							'4' => 'Single post only',
-							),
-						'default' => '1'
-					),
+					
 				),
 			);
 			
