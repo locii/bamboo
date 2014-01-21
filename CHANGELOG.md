@@ -1,4 +1,4 @@
-## BONES CHANGE LOG & HISTORY
+## Bamboo CHANGE LOG & HISTORY
 
 This is a vanilla starter theme for Wordpress created Joomlabamboo / Bamboo themes..
 For more information, please visit:
